@@ -91,7 +91,7 @@ public abstract class RMAbstractSwitch extends RelativeLayout
      */
     protected RelativeLayout mContainerLayout;
 
-    protected static LayoutTransition sLayoutTransition;
+    private LayoutTransition sLayoutTransition;
 
     protected static final int ANIMATION_DURATION = 150;
 
